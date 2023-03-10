@@ -4,11 +4,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 60px auto;
-  max-width: 800px;
-}
-
 h1,
 h2,
 h3 {
@@ -22,6 +17,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin-top: 40px;
 }
 
 h3 {
@@ -88,4 +84,10 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.logo {
+  max-width: 100px;
+}
+.about-me-title {
+  margin-top: 40px;
 }
